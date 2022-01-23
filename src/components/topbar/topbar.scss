@@ -1,0 +1,54 @@
+.topbar {
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  top:0;
+  
+  .topbarWrapper{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .topLeft{
+      font-size: 30px;
+      font-weight: bold;
+      color: rgb(4, 4, 131);
+      cursor: pointer;
+    }
+
+    .topRight{
+      display: flex;
+      align-items: center;
+      color: rgb(87, 86, 86);
+      
+      .iconWrapper{
+        position: relative;
+        margin-right: 8px;
+        cursor: pointer;
+
+        .iconCount{
+          width: 14px;
+          height: 14px;
+          background-color: red;
+          color: #fff;
+          position: absolute;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 12px;
+          top:-5px;
+          right: -1px;
+        }
+      }
+      .profilePicture{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor:pointer;
+      }
+    }
+  }
+}
