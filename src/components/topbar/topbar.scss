@@ -1,33 +1,35 @@
 .topbar {
   width: 100%;
   height: 50px;
-  position: sticky;
-  top:0;
-  
-  .topbarWrapper{
+  position:sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+
+  .topbarWrapper {
     padding: 10px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    .topLeft{
+    .topLeft {
       font-size: 30px;
       font-weight: bold;
       color: rgb(4, 4, 131);
       cursor: pointer;
     }
 
-    .topRight{
+    .topRight {
       display: flex;
       align-items: center;
       color: rgb(87, 86, 86);
-      
-      .iconWrapper{
+
+      .iconWrapper {
         position: relative;
         margin-right: 8px;
         cursor: pointer;
 
-        .iconCount{
+        .iconCount {
           width: 14px;
           height: 14px;
           background-color: red;
@@ -38,16 +40,16 @@
           align-items: center;
           justify-content: center;
           font-size: 12px;
-          top:-5px;
+          top: -5px;
           right: -1px;
         }
       }
-      .profilePicture{
+      .profilePicture {
         width: 40px;
         height: 40px;
         border-radius: 50%;
         object-fit: cover;
-        cursor:pointer;
+        cursor: pointer;
       }
     }
   }

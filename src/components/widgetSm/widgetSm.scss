@@ -1,0 +1,62 @@
+.widgetSm {
+  flex: 1.5;
+  -webkit-box-shadow: 0px 0px 9px 3px #f1f1f1;
+  box-shadow: 0px 0px 9px 3px #f1f1f1;
+  margin-right: 30px;
+
+  .widgetSmWrapper {
+    margin: 10px 20px;
+
+    .widgetSmTitle {
+      font-size: 24px;
+      color: rgb(65, 64, 64);
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+    .widgetSmList {
+      list-style: none;
+
+      .widgetSmListItem {
+        margin: 20px 5px;
+        display: flex;
+        align-items: center;
+        .widgetSmListItemImg {
+          width: 36px;
+          height: 36px;
+          border-radius: 50%;
+          object-fit: cover;
+          margin-right: 30px;
+          cursor: pointer;
+        }
+        .widgetSmListItemInfo {
+          display: flex;
+          flex-direction: column;
+          margin-right: 30px;
+
+          .username {
+              font-size: 16px;
+
+          }
+          .position{
+              font-size: 14px;
+              color: grey;
+          }
+        }
+        .display{
+            padding: 5px 10px;
+            display: flex;
+            align-items: center;
+            border: none;
+            border-radius: 5px;
+            color: rgb(78, 78, 78);
+            font-size: 14px;
+            cursor: pointer;
+            background-color: #e2e0f0;
+            .displayIcon {
+                margin-right: 5px;
+            }
+        }
+      }
+    }
+  }
+}
