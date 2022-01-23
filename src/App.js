@@ -1,10 +1,16 @@
+import "./app.scss";
+import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
-
+import Home from "./pages/home/Home";
 
 function App() {
   return (
     <div className="App">
-      <Topbar/>
+      <Topbar />
+      <div className="container">
+        <Sidebar className="sidebar" />
+        <Home/>
+      </div>
     </div>
   );
 }
