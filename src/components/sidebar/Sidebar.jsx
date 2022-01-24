@@ -14,6 +14,7 @@ import {
 } from "@material-ui/icons";
 import "./sidebar.scss";
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -23,9 +24,12 @@ export default function Sidebar() {
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem active">
-              <LineStyle className="sidebarListItemIcon" />
-              Home
+              <Link to="/" className="sidebarLink active">
+                <LineStyle className="sidebarListItemIcon" />
+                Home
+              </Link>
             </li>
+
             <li className="sidebarListItem">
               <Timeline className="sidebarListItemIcon" />
               Analytics
@@ -40,9 +44,12 @@ export default function Sidebar() {
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-              <PersonOutlined className="sidebarListItemIcon" />
-              Users
+              <Link to="/users" className="sidebarLink">
+                <PersonOutlined className="sidebarListItemIcon" />
+                Users
+              </Link>
             </li>
+
             <li className="sidebarListItem">
               <IndeterminateCheckBox className="sidebarListItemIcon" />
               Products
