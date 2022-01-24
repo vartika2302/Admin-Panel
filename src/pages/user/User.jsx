@@ -7,6 +7,7 @@ import {
   Publish,
 } from "@material-ui/icons";
 import React from "react";
+import { Link } from "react-router-dom";
 import "./user.scss";
 
 export default function User() {
@@ -15,7 +16,9 @@ export default function User() {
       <div className="userWrapper">
         <div className="userTop">
           <h3 className="userTitle">Edit User</h3>
-          <button className="userCreateBtn">Create</button>
+          <Link to="/addUser">
+            <button className="userCreateBtn">Create</button>
+          </Link>
         </div>
         <div className="userBottom">
           <div className="userInfo">
@@ -131,8 +134,10 @@ export default function User() {
                     alt=""
                     className="userUploadImg"
                   />
-                  <input type="file" id="file" style={{display:"none"}}/>
-                  <label htmlFor="file" ><Publish className="userUploadIcon"/></label>
+                  <input type="file" id="file" style={{ display: "none" }} />
+                  <label htmlFor="file">
+                    <Publish className="userUploadIcon" />
+                  </label>
                 </div>
                 <button className="updateBtn">Update</button>
               </div>

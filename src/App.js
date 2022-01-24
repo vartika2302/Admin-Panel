@@ -5,6 +5,7 @@ import Home from "./pages/home/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import UsersList from "./pages/usersList/UsersList";
 import User from "./pages/user/User";
+import AddUser from "./pages/addUser/AddUser";
 function App() {
   return (
     <Router className="App">
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/" element={<Home className="home" />} />
           <Route exact path="/users" element={<UsersList />} />
           <Route exact path="/user/:userId" element={<User />} />
+          <Route exact path="/addUser" element={<AddUser />} />
         </Routes>
       </div>
     </Router>
