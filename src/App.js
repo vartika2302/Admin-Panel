@@ -6,6 +6,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import UsersList from "./pages/usersList/UsersList";
 import User from "./pages/user/User";
 import AddUser from "./pages/addUser/AddUser";
+import ProductsList from "./pages/productsList/ProductsList";
+import Product from "./pages/product/Product";
+import AddProduct from "./pages/addProduct/AddProduct";
 function App() {
   return (
     <Router className="App">
@@ -18,6 +21,9 @@ function App() {
           <Route exact path="/users" element={<UsersList />} />
           <Route exact path="/user/:userId" element={<User />} />
           <Route exact path="/addUser" element={<AddUser />} />
+          <Route exact path="/products" element={<ProductsList />} />
+          <Route exact path="/products/:productId" element={<Product />} />
+          <Route exact path="/addProduct" element={<AddProduct />} />
         </Routes>
       </div>
     </Router>

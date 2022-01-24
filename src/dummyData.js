@@ -49,7 +49,6 @@ export const userData = [
   },
 ];
 
-
 export const userRows = [
   {
     id: 1,
@@ -113,5 +112,88 @@ export const userRows = [
     email: "rehana@gmail.com",
     status: "active",
     transaction: "$120.0",
+  },
+];
+
+export const productRows = [
+  {
+    id: 1,
+    productname: "Airpods",
+    img: "https://m.media-amazon.com/images/G/01/appcore/accy/V2-AirPods_Pro_Desktop_02._CB449710331_.jpg",
+    stock: "132",
+    status: "active",
+    price: "$120.0",
+  },
+  {
+    id: 2,
+    productname: "Airpods",
+    img: "https://m.media-amazon.com/images/G/01/appcore/accy/V2-AirPods_Pro_Desktop_02._CB449710331_.jpg",
+    stock: "132",
+    status: "active",
+    price: "$120.0",
+  },
+  {
+    id: 3,
+    productname: "Airpods",
+    img: "https://m.media-amazon.com/images/G/01/appcore/accy/V2-AirPods_Pro_Desktop_02._CB449710331_.jpg",
+    stock: "132",
+    status: "active",
+    price: "$120.0",
+  },
+  {
+    id: 4,
+    productname: "Airpods",
+    img: "https://m.media-amazon.com/images/G/01/appcore/accy/V2-AirPods_Pro_Desktop_02._CB449710331_.jpg",
+    stock: "132",
+    status: "active",
+    price: "$120.0",
+  },
+  {
+    id: 5,
+    productname: "Airpods",
+    img: "https://m.media-amazon.com/images/G/01/appcore/accy/V2-AirPods_Pro_Desktop_02._CB449710331_.jpg",
+    stock: "132",
+    status: "active",
+    price: "$120.0",
+  },
+  {
+    id: 6,
+    productname: "Airpods",
+    img: "https://m.media-amazon.com/images/G/01/appcore/accy/V2-AirPods_Pro_Desktop_02._CB449710331_.jpg",
+    stock: "132",
+    status: "active",
+    price: "$120.0",
+  },
+  {
+    id: 7,
+    productname: "Airpods",
+    img: "https://m.media-amazon.com/images/G/01/appcore/accy/V2-AirPods_Pro_Desktop_02._CB449710331_.jpg",
+    stock: "132",
+    status: "active",
+    price: "$120.0",
+  },
+  {
+    id: 8,
+    productname: "Airpods",
+    img: "https://m.media-amazon.com/images/G/01/appcore/accy/V2-AirPods_Pro_Desktop_02._CB449710331_.jpg",
+    stock: "132",
+    status: "active",
+    price: "$120.0",
+  },
+  {
+    id: 9,
+    productname: "Airpods",
+    img: "https://m.media-amazon.com/images/G/01/appcore/accy/V2-AirPods_Pro_Desktop_02._CB449710331_.jpg",
+    stock: "132",
+    status: "active",
+    price: "$120.0",
+  },
+  {
+    id: 10,
+    productname: "Airpods",
+    img: "https://m.media-amazon.com/images/G/01/appcore/accy/V2-AirPods_Pro_Desktop_02._CB449710331_.jpg",
+    stock: "132",
+    status: "active",
+    price: "$120.0",
   },
 ];

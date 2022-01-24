@@ -51,8 +51,10 @@ export default function Sidebar() {
             </li>
 
             <li className="sidebarListItem">
-              <IndeterminateCheckBox className="sidebarListItemIcon" />
-              Products
+              <Link to="/products" className="sidebarLink">
+                <IndeterminateCheckBox className="sidebarListItemIcon" />
+                Products
+              </Link>
             </li>
             <li className="sidebarListItem">
               <AttachMoney className="sidebarListItemIcon" />
