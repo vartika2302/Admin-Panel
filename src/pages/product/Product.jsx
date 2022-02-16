@@ -3,6 +3,7 @@ import "./product.scss";
 import Chart from "../../components/chart/Chart";
 import { productData } from "../../dummyData";
 import { Publish } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 export default function Product() {
   return (
@@ -10,7 +11,9 @@ export default function Product() {
       <div className="productWrapper">
         <div className="productTop">
           <h2 className="productTopTitle">Product</h2>
-          <button className="productTopBtn">Create</button>
+          <Link to="/addProduct">
+            <button className="productTopBtn">Create</button>
+          </Link>
         </div>
         <div className="productMid">
           <div className="productMidLeft">

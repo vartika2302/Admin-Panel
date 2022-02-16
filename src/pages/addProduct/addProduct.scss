@@ -1,0 +1,44 @@
+.addProduct {
+  flex: 4;
+  .addProductWrapper {
+    margin: 10px 30px;
+    width: 40%;
+    .addProductTitle {
+      font-size: 30px;
+      font-weight: 700;
+      color: rgb(20, 20, 136);
+    }
+    .addProductForm {
+      display: flex;
+      flex-direction: column;
+      .addProductLabel {
+        margin: 10px 0;
+      }
+      .addProductInput {
+        padding: 8px;
+        font-size: 16px;
+        &:focus {
+          outline: none;
+        }
+        &.file{
+            font-size: 14px;
+            padding: 5px;
+        }
+      }
+      .addProductSelect {
+          padding: 8px;
+      }
+      .addProductBtn {
+          margin-top: 30px;
+          background-color: rgb(28, 28, 173);
+          color: #fff;
+          border: none;
+          border-radius: 10px;
+          font-size: 15px;
+          font-weight: 600;
+          width: 100px;
+          padding: 8px 14px;
+      }
+    }
+  }
+}
